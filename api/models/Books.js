@@ -17,5 +17,11 @@ module.exports = {
       columnName: "bookDetailId",
       required: true,
     },
+
+    user: {
+      model: "user",
+      columnName: "userId",
+      required: true,
+    }
   },
 };
